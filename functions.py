@@ -1,6 +1,4 @@
 print('Hello')
-
-
 # defining
 def multiplyByThree(val):
     return 3 * val
