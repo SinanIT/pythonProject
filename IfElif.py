@@ -20,7 +20,13 @@ for n in range(1, 10):
     else:
         print(n)
 n = 5
+print('**********************************')
+# Ternary Operator
 print('Fizz' if n % 3 == 0 else n)
 
 fizzBuzz = 'Fizz' if n % 3 == 0 else n
 print(fizzBuzz)
+
+print('Fizz' if n % 3 == 0 else 'Buzz' if n % 5 == 0 else n)  # Buzz
+
+print('FizzBuzz' if n % 15 == 0 else 'Fizz' if n % 3 == 0 else 'Buzz' if n % 5 == 0 else n)  # Buzz
